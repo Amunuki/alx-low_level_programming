@@ -1,22 +1,16 @@
 #include <stdio.h>
+#include <string.h>
 
-
-
-/
-
- * main - entry point,
- *
- *  *
- *
- *   * Return:  0
- *
+/** 
+ *main - Entry point
+ *Return: Always 0 (Succusse)
  */
-
-
-
 int main(void)
 
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0) ; }
+	char str[] = "\"Programming is like building multilingual puzzle";
 
+	puts (str);
+
+	return (0);
+}
