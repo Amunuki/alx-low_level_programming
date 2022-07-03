@@ -1,27 +1,13 @@
-filename: 5-printf.c
-
 #include <stdio.h>
 
-
-
-/
-
- * main - prints some text
- *
- *  *
- *
- *   * Return: always 0(success)
- *
- */
-
-
-
+/*
+*main - Entry point
+*printing using printf function
+*Return: Always 0 (Success)
+*/
 int main(void)
-
 {
+	printf("with proper grammer, but the outcome is a piece of art,\n");
 
-	printf("with proper grammar, but the outcome is a piece of art,\n");
-
-	return (0);
-
+return (0);
 }
