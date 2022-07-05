@@ -13,6 +13,6 @@ printf("%d is Posetive \n", n);
 else if (n < 0)
 printf("%d is Negative \n", n);
 else
-printf("%d is Zero \n", n);
+printf("%d is zero \n", n);
 return (0);
 }
