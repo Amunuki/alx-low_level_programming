@@ -1,18 +1,20 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
-/*main - Prints a  Randum Num and identifies negetive or posetive or zero */
-/* betty style Doc for function main goes there */
+
+/*main - Entry point
+ *printing using printf
+ *Return: Always 0 (Success)
+ */
 int main(void)
+
 {
-int n;
-srand(time(0));i
+int n:
+srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
-printf("%d is Posetive \n", n);
+printf("%d is posetive\n", n);
 else if (n < 0)
-printf("%d is Negative \n", n);
-else
-printf("%d is zero \n", n);
+printf("%d is negative\n", n);
+else 
+printf("%d is zero\n", n);
 return (0);
 }
