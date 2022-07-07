@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/*main - Prints a randum Num and identifies negetive or posetive or zero */
+/*main - Prints a Randum Num and identifies negetive or posetive or zero */
 /* betty style Doc for function main goes there */
 int main(void)
 {
