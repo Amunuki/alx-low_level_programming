@@ -1,24 +1,21 @@
+#include "main.h"
 #include <stdio.h>
-
 /**
- * main - entry point
+ * _abs - function that computes the absolute value of an integer
  *
- *   *
+ *   * @c:  is the int that will use for the argument of the function
  *
- *    * Return:  0
+ *    * Return: 0
  *
  */
-int main(void)
+int _abs(int c)
 {
-int i;
-long int d;
-char c;
-long long int e;
-float f;
-printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(c));
-printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(i));
-printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(d));
-printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(e));
-printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
-return (0);
+if (c > 0 || c == 0)
+{
+return (c);
 }
+else
+return (c * -1);
+}
+
+
