@@ -1,7 +1,4 @@
 #include "main.h"
-
-
-
 /**
  *main - function to print
  *
