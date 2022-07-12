@@ -6,7 +6,7 @@
  *@c: inputs alphabet
  *Return: returns a value
  */
-int _isuper(int c)
+int _isdigit(int c)
 
 {
 int result;
