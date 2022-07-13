@@ -2,12 +2,11 @@
 #include "main.h"
 
 /**
- *print_fuzz for multiplies of 3
- *print_Buzz for multiply of 5
- *print_fizzBuzz for multiplies of 5 and 3
- *Return: void
+ *main: entry point
+ *Return: 0
  */
 
+int main(void)
 {
 int i;
 for (i = 1; i <= 100; i++)
