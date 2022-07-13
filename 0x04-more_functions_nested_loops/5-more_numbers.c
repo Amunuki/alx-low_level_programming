@@ -5,7 +5,7 @@
  *more_numbers - prints 10 times
  *Return: void
  */
-
+void more_numbers(void)
 
 {
 int i = 0;
@@ -24,4 +24,3 @@ _putchar(n - 10);
 i++;
 }
 }
-
