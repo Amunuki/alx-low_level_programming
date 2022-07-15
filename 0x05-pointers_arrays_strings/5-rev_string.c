@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include "main.h"
-
 /**
  * rev_string - a function
  * @s: pointer
