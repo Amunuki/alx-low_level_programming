@@ -4,7 +4,8 @@
 
 /**
  * print_array
- * @s: pointer
+ * @a: pointer
+ * @n: ponters 
  * Return: void
  */
 void print_array(int *a, int n)
