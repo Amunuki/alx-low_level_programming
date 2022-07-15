@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * print_array
+ * print_array - function
  * @a: pointer
  * @n: number of elements 
  * Return: void
