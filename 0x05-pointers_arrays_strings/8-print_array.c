@@ -5,7 +5,7 @@
 /**
  * print_array - function
  * @a: pointer
- * @n: number of elements 
+ * @n: number of elements
  * Return: void
  */
 void print_array(int *a, int n)
